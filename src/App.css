@@ -64,8 +64,9 @@ td {
   padding: .5rem 1rem;
   color:white;
   border: none;
-  border-radius: 20%;
+  border-radius: 4rem;
   margin-right: .3rem;
+  box-shadow: 2px 2px 4px #282c34;
 }
 .btn-state{
   background-color: green;
@@ -104,7 +105,7 @@ label{
   margin-bottom: 2rem;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #282c34
+  color: #282c34;
 }
 input{
   font-weight: 700;
@@ -123,6 +124,7 @@ input:last-of-type:not(.input-search){
   border-radius: 4rem;
   font-weight: 700;
   font-size: 1.2rem;
+  box-shadow: 2px 2px 4px #282c34;
 }
 .close {
   background-color: rgb(177, 14, 14);
@@ -133,6 +135,8 @@ input:last-of-type:not(.input-search){
   text-decoration: none;
   border:none;
   border-radius: 4rem; 
+  box-shadow: 2px 2px 4px #282c34;
+
 }
 .input-search{
   margin-top: 4rem;
@@ -144,4 +148,5 @@ input:last-of-type:not(.input-search){
   font-size: 1rem;
   border-radius: 4rem;
   outline-color: #61dafb;
+  box-shadow: 2px 2px 4px #282c34;
 }
